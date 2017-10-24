@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><gadgetDefinition>
+  <gadgetName>Task001Start</gadgetName>
+  <gadgetTitle>Task001Start</gadgetTitle>
+  <gadgetSettingsTitle>Task001Start Settings</gadgetSettingsTitle>
+  <gadgetDescription>Task001Start Description</gadgetDescription>
+  <gadgetID>512e62bd_5855_4429_b855_ccee2315c464Start</gadgetID>
+  <gadgetModules>
+    <module>Task001Start_512e62bd_5855_4429_b855_ccee2315c464Start</module>
+  </gadgetModules>
+  <gadgetScripts>
+    <script>/Task001Start/scripts/config.js</script>
+    <script>/Task001Start/scripts/controller.js</script>
+    <script>/Task001Start/scripts/custom.js</script>
+  </gadgetScripts>
+  <gadgetCSS>
+    <style>/Task001Start/styles/gadget.css</style>
+  </gadgetCSS>
+  <gadgetIcon>/images/Task001Start/default.png</gadgetIcon>
+  <gadgetGroup>TaskDevelopmentProject0003A</gadgetGroup>
+  <gadgetType>AngularJS</gadgetType>
+  <gadgetURL>/business.console.gadgets#/TaskDevelopmentProject0003A/Task001Start</gadgetURL>
+  <parameters>
+    <servers/>
+    <events>
+      <publish/>
+      <subscribe/>
+    </events>
+    <parameter/>
+    <configParams type="dependencies">
+      <configParam>
+        <key>dependency_builder</key>
+        <value>builder</value>
+      </configParam>
+      <configParam>
+        <key>dependency_builder.components</key>
+        <value>builder.components</value>
+      </configParam>
+      <configParam>
+        <key>dependency_validator.rules</key>
+        <value>validator.rules</value>
+      </configParam>
+    </configParams>
+    <configParams type="framework">
+      <configParam>
+        <key>gadgetRootContext</key>
+        <value>/Task001Start</value>
+      </configParam>
+      <configParam>
+        <key>applicationName</key>
+        <value>TaskDevelopmentProject0003A</value>
+      </configParam>
+      <configParam>
+        <key>frameLess</key>
+        <value>false</value>
+      </configParam>
+    </configParams>
+  </parameters>
+</gadgetDefinition>
