@@ -6,6 +6,14 @@
     ruleContextBeanName="Task002RuleContext"    
 >
     <!-- Setup rules storage -->
+    <!-- Setup rules storage -->
+    <!-- Setup rules storage -->
+    <!-- Setup rules storage -->
+    <!-- Setup rules storage -->
+    <!-- Setup rules storage -->
+    <!-- Setup rules storage -->
+    <!-- Setup rules storage -->
+    
     <CONTEXT alias="task.rules.storage">
         <folder name="1e2d6c09-c938-480a-839f-70794666626d Rules" alias="1e2d6c09-c938-480a-839f-70794666626d.rules.storage">
             <folder name="Assignment" alias="1e2d6c09-c938-480a-839f-70794666626d.routing.rules.storage"/>
